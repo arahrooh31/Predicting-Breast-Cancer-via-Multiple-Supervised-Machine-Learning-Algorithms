@@ -1,1 +1,6 @@
 # Predicting-Breast-Cancer-via-Multiple-Supervised-Machine-Learning-Algorithms
+
+Objective: To demonstrate the effectiveness of multiple supervised machine learning algorithms (Support Vector Machine, Logistic Regression, Kernel-SVM, Random Forest, K-nearest neighbors, Naïve Bayes, Decision Trees) in classifying the Wisconsin Breast Cancer dataset obtained from UCI. This analysis aims to observe which machine learning technique is most successful in predicting malignant or benign cancer and to see general trends that may aid us in model selection and hyper parameter selection. The goal is to classify whether the breast cancer is benign or malignant based on the tumor’s physical features.
+Methods: Scikit-learn machine learning library for Python was used in Visual Studio Code to preprocess the data, then create the machine learning models, followed by evaluation with performance metrics, and analysis.
+Results: The presented machine learning algorithms performed well, all exceeded 90% test accuracy, on the classification task. Random Forest allowed for the highest performance evaluation among the seven machine learning methods tested with an accuracy score of 98.92%, sensitivity of 99.74% and precision of 98.53%.
+Conclusion: Multiple supervised machine learning classification algorithms are able to accurately predict benign or malignant
